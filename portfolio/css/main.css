@@ -1,0 +1,111 @@
+.section-spaceing {
+  margin-top: 75px;
+}
+.back-to-top {
+  display: none;
+  margin: 0px;
+  border-radius: 100px;
+  z-index: 100;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background-color: #FF06D1;
+  opacity: 0.5;
+}
+a:hover .back-to-top {
+  opacity: 1;
+}
+@media (min-width: 550px) {
+  .back-to-top {
+    margin: 30px;
+  }
+}
+.to-top-icon {
+  margin-left: 11px;
+  margin-top: 11px;
+  width: 40px;
+  height: 40px;
+}
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header-bg-color-dark {
+  background-color: #11232D;
+}
+.header-bg-color-lite {
+  background-color: #EDFDFF;
+}
+.logo {
+  color: black;
+  text-align: center;
+}
+.logo-name {
+  padding-top: 10px;
+  font-size: 1.5em;
+}
+.logo-job {
+  font-size: 1em;
+}
+.logo-button {
+  display: inline-block;
+  position: relative;
+}
+a.logo-button {
+  color: #FF06D1;
+}
+.main-nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+.scope {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px #E2E2E2;
+}
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .logo {
+    text-align: right;
+  }
+  .main-nav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    text-align: right;
+  }
+  .scope {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .main-nav {
+    font-size: 30px;
+  }
+}
+.fixed-header {
+  position: fixed;
+  top:0; left:0;
+  width: 100%;
+  z-index: 1;
+}
+.padding-header {
+  height: 120px;
+}
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer{
+  color: white;
+  font-size: 14px;
+  border-top: 0px solid #F2F2F2;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

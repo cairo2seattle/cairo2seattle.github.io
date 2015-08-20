@@ -1,0 +1,41 @@
+/* Project Header Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.project-header {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #11232D;
+}
+.project-header h2 {
+  margin-bottom: 20px;
+  color: #11232D;
+  font-family: "Open Sans", sans-serif;
+}
+.project-header p {
+  color: black;
+  padding-top: 10px;
+}
+.project-header a {
+  color: black;
+}
+.project-header a:hover {
+  color: #FF06D1;
+}
+.project-header strong {
+  font-size: 14px;
+  color: #FF06D1;
+  font-weight: 400;
+}
+/* Basic formating (font, margins etc)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.general-formatting p, img {
+  margin-top: 10px;
+  width: 100%
+}
+
+/* footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer a {
+  color: white;
+}
+.footer a:hover {
+  color: #FF06D1;
+}
