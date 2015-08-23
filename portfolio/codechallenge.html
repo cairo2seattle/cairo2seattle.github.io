@@ -4,7 +4,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>/ Portfolio/ LetsMov.it IxD</title>
+  <title>/ Portfolio/ Code Challenge</title>
   <meta name="description" content="">
   <meta name="author" content="">
   <!-- Mobile Specific Metas
@@ -56,7 +56,7 @@
         <ul>
           <li><a href="../" class="nav-dark"><strong>Home</strong></a></li>
           <li>/ <a href="../portfolio.html" class="nav-dark"><strong>Portfolio</strong></a></li>
-          <li>/ LetsMov.it IxD</li>
+          <li>/ Code Challenge</li>
         </ul>
       </div>
     </div>
@@ -70,18 +70,18 @@
     </div>
   </a>
   <section class="project-header container section-spaceing">
-    <h2>LetsMov.it IxD</h2>
+    <h2>Code Challenge</h2>
     <div class="one-half column">
-      <p><strong>PROJECT ID:</strong>  IxD_LetsMov.it</p>
+      <p><strong>PROJECT ID:</strong>  CF_CC</p>
       <p><strong>DURATION:</strong>  One day</p>
       <P><strong>TEAM:</strong>  Mohammed Elagouz</P>
       <p><strong>YEAR:</strong>  2015</p>
     </div>
     <div class="one-half column">
-      <p><strong>TOOLS:</strong>  Sketch, QC: origami</p>
-      <p><strong>DELIVERABLES:</strong>  gif demo </p>
-      <P><strong>PROTOTYPE:</strong>N/A</p>
-      <p><strong>PROJECT FOLDER:</strong>N/A</P>
+      <p><strong>TOOLS:</strong>  HTML, CSS, jQuery, github</p>
+      <p><strong>DELIVERABLES:</strong>  github repo</p>
+      <P><strong>PROTOTYPE:</strong> available soon</p>
+      <p><strong>PROJECT FOLDER:</strong>  <a href="https://github.com/cairo2seattle/MyCC" target="_blank">LINK</a></P>
     </div>
   </section>
   <!-- Project Brief
@@ -89,19 +89,25 @@
   <section class="project-brief container section-spaceing general-formatting">
     <div class="row">
       <h2>Intro</h2>
-      <p>I was trying to prototype a micro interaction of onboarding user for letsmov.it app. I started to think of a tools and picked up quartz composer origami. I started to plan out my interaction on paper first.</p>
+      <p>As a final part of my application for front-end class at Code Fellows, The Review Team has assigned me a coding challenge. The code challenge was slicing a web page design as a jpg file using photoshop, construct it in HTML, make a part of it interactive using jQuery and final push the webpage onto github.</p>
     </div>
     <div class="row">
-      <img class="project-image" src="img/letsmovitixd/sketch1.jpg">
-      <img class="project-image" src="img/letsmovitixd/sketch2.jpg">
+      <img class="project-image" src="img/letsmovitixd/webpage.jpg">
     </div>
     <div class="row">
-      <p>Second phase was import all UI elements from sketch to QC. then started prototyping: </p>
-      <img class="project-image" src="img/letsmovitixd/letsmovit.png">
-      <p>and the final interaction: </p>
-      <img class="project-image" src="img/letsmovitixd/letsmovit.gif">
+      <p><strong>jQuery Code: </strong></p>
+      <pre><code>
+        $(document).ready(function(){
+            $("h3").click(function(){
+                if ( $(this).hasClass("checkmark") ) {
+                    $(this).removeClass("checkmark").find('img').attr("src","img/Check box.png");
+                } else {
+                    $(this).addClass("checkmark").find('img').attr("src","img/Check mark.png")
+                }
+            });
+        });
+      </code></pre>
     </div>
-
   </section>
   <!-- Footer
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
