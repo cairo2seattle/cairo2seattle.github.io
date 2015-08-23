@@ -5,12 +5,12 @@ body{
   margin-top: 75px;
 }
 .bg-video{
-  background: url("../img/bg-video.png") 0 70px;
+  background: url("../img/bg-video.png");
   background-size: 1440px;
+  height: 100vh;
+  background-position: 0px 100px;
+  box-sizing: content-box;
   background-repeat: no-repeat;
-  background-position: top center;
-  opacity: 10;
-  box-sizing: border-box;
 }
 /* landpage
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -22,7 +22,7 @@ body{
 }
 .tag-line {
   font-family: "Open Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 700;
   background-color: #11232D;
   color: #17FF06;
   padding: 25px;
