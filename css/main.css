@@ -95,15 +95,11 @@ a.logo-button {
     text-align: right;
   }
   .main-nav{
-    padding-top: 15px;
-    padding-bottom: 15px;
     font-size: 20px;
     text-align: right;
   }
   .scope {
     font-size: 14px;
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 }
 /* Larger than tablet */
