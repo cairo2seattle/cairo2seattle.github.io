@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Delicious Food Blog</title>
+    <link rel="shortcut icon" href="img/Logo-min.jpg">
+
+    <!-- ==================CSS================== -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+
+
+    <!--===============Script/jQuery=================-->
+    <script src="js/jquery-2.0.3.min.js"></script>
+
+
+</head>
+<body><!-- For prototyping purpose, I wrote some of the css inside element tags as style. -->
+    <div class="container">
+        <!--===================Header======================-->
+        <div>
+            <div style="float: left;">
+                <a href="https://www.codefellows.org/"><img src="img/Logo.jpg"></a></div>
+            <div style="float: right; padding-top: 10px;">
+                <a href="https://www.facebook.com/" target="_blank"><img src="img/Social/facebook.jpg"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="img/Social/twitter.jpg"></a>
+                <a href="https://plus.google.com/" target="_blank"><img src="img/Social/googleplus.jpg"></a>
+                <a href="https://instagram.com" target="_blank"><img src="img/Social/instagram.jpg"></a>
+                <a href="http://www.flickr.com/" target="_blank"><img src="img/Social/flickr.jpg"></a>
+                <a href="http://www.pinterest.com/" target="_blank"><img src="img/Social/pinterest.jpg"></a>
+                <a href=""><img src="img/Social/rss.jpg"></a>
+                <a href=""><img src="img/Social/email.jpg"></a>
+            </div>
+        </div>
+        <div>
+            <img src="img/bar.jpg" style="padding-top: 30px;">
+        </div>
+        <div>
+            <img src="img/sub-header.jpg" style="padding-top: 50px;">
+            <img src="img/print.jpg" style="padding-top: 95px; float: right;">
+        </div>
+        <!--===================Image/content======================-->
+        <div>
+            <img src="img/Food-Image.jpg" style="padding-top: 20px;">
+        </div>
+        <!--===================Ricpe======================-->
+        <div>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For the fig-swirl:Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside an dlet cool completely.</p><br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ice cream:In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm.Wish in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p><br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions,i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts.Countinue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware.Freeze for at least twohours before serving. </p><br><br>  
+        </div>
+        <!--===================Ingredients======================-->
+        <div id="ingredients" style="">
+            <div id="left" style="opacity:0.5; float:left; padding-left:60px; padding-top:-10px;">
+                <h3><img src="img/Check box.png"> &nbsp;&nbsp; 1 1/2 cups milk</h3>
+                <h3><img src="img/Check box.png"> &nbsp;&nbsp; 1/2 cup mascarpone</h3>
+                <h3><img src="img/Check box.png"> &nbsp;&nbsp; 1/2 tsp pink salt</h3>
+                <h3><img src="img/Check box.png"> &nbsp;&nbsp; 1lb Black Mission Figs</h3>
+                <h3><img src="img/Check box.png"> &nbsp;&nbsp; 1/2 cup brown sugar</h3>
+                <h3><img src="img/Check box.png"> &nbsp;&nbsp; 2-4 tbsp water</h3>
+            </div>
+            <div id="right" style="opacity:0.5; float:right; padding-right: 20px; padding-top:-10px;">
+                <h3><img src="img/Check box.png"> &nbsp;&nbsp; 1 1/2 cups heavy cream</h3>
+                <h3><img src="img/Check box.png"> &nbsp;&nbsp; 1/3 granulated sugar</h3>
+                <h3><img src="img/Check box.png"> &nbsp;&nbsp; 2 egg yolks</h3>
+                <h3><img src="img/Check box.png"> &nbsp;&nbsp; 1 Lemon juiced</h3>
+                <h3><img src="img/Check box.png"> &nbsp;&nbsp; 2 tbsp butter</h3>
+                <h3><img src="img/Check box.png"> &nbsp;&nbsp;1 cup honey roasted pecans, roughly chopped</h3>
+            </div>
+        </div><br>
+        <!--===================footer======================-->
+        <div>
+            <img src="img/bar.jpg" style="padding-top: 30px;">
+        </div>
+        <div>
+            <img src="img/footer.jpg" style="">
+            <a href="http://www.facebook.com/sharer.php?u=http://google.com"><img src="img/buttn.jpg" style="padding-top: 40px; float: right;"></a>
+        </div>
+        <div class="fot">
+            <img src="img/Logo-min.jpg">
+            <p>Delicious @ 2013 . All Rights Reserved. <br>Proudly published with Ghost.</p>
+        </div>
+    </div>
+    <!--===================Script======================-->
+    <script>
+        $(document).ready(function(){
+            $("h3").click(function(){
+                if ( $(this).hasClass("checkmark") ) {
+                    $(this).removeClass("checkmark").find('img').attr("src","img/Check box.png");
+                } else {
+                    $(this).addClass("checkmark").find('img').attr("src","img/Check mark.png")
+                }
+            });
+        });
+    </script>
+</body>
+</html>

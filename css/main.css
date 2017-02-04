@@ -1,0 +1,128 @@
+body{
+  background-color: #EDFDFF;
+}
+.section-spaceing {
+  margin-top: 75px;
+}
+.bg-video{
+  background: url("../img/bg-video.png");
+  background-size: 100%;
+  background-position: 0px 100px;
+  box-sizing: content-box;
+  background-repeat: no-repeat;
+}
+/* landpage
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.tag-box {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 250px;
+}
+.tag-line {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  background-color: #11232D;
+  color: #17FF06;
+  padding: 25px;
+  font-size: 16px;
+}
+@media (min-width: 550px) {
+  .tag-box {
+    width: 50%;
+  }
+  .tag-line {
+    font-size: 24px;
+  }
+}
+
+.bg-img {
+}
+.bg-img img {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -1000;
+  width: 100vw;
+  max-height: 100vw
+}
+
+
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header-bg-color-dark {
+  background-color: #11232D;
+}
+.header-bg-color-lite {
+  background-color: #EDFDFF;
+}
+.logo {
+  color: #17FF06;
+  text-align: center;
+}
+.logo-name {
+  padding-top: 10px;
+  font-size: 1.5em;
+}
+.logo-job {
+  font-size: 1em;
+}
+.logo-button {
+  color: #17FF06;
+  display: inline-block;
+  position: relative;
+}
+a.logo-button {
+  color: #17FF06;
+}
+.main-nav {
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+.scope {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px #E2E2E2;
+}
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .logo {
+    text-align: right;
+  }
+  .main-nav{
+    font-size: 20px;
+    text-align: right;
+  }
+  .scope {
+    font-size: 14px;
+  }
+}
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .main-nav {
+    font-size: 30px;
+  }
+}
+.fixed-header {
+  position: fixed;
+  top:0; left:0;
+  width: 100%;
+  z-index: 1;
+}
+.padding-header {
+  height: 110px;
+}
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer{
+  font-size: 14px;
+  border-top: 0px solid #F2F2F2;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
