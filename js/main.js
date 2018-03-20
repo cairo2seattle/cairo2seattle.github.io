@@ -3,6 +3,7 @@ $(window).scroll(function(){
   if ($(window).scrollTop() >= 204) {
     $("#nav-bar").addClass("fixed-header");
     $("#nav-padding").addClass("padding-header");
+    console.log('test');
   } else {
     $("#nav-bar").removeClass("fixed-header");
     $("#nav-padding").removeClass("padding-header");
